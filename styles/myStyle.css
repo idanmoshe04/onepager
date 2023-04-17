@@ -1,0 +1,183 @@
+﻿/*
+הגדרות העמוד
+ימין לשמאל, צבע טקסט, וגודך
+*/
+body {
+    direction: rtl;
+    color: #064F8D;
+    font-size: 16px;
+}
+/*
+הגדרות תפריט ומחלקת ore
+פונט וגודל טקסט
+*/
+nav{
+    font-family: OS Luizi Round_FFC;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: OS Luizi Round_FFC;
+    font-size: xx-large;
+}
+.ore{
+    font-family: OS Luizi Round_FFC;
+    font-size: 24px;
+}
+
+/*
+הגדרה ללינקים בתפריט, מחקלה ore וכותרת H5
+צבע כתום
+*/
+.nav-link,
+.ore, h3 {
+    color: #F76F14;
+}
+
+h5{
+    color:#064F8D;
+}
+
+/*
+הגדאה לתמונה בנאב
+*/
+.navbar-brand img {
+    width: 220px;
+}
+
+/*
+הגדרה לפריטים מסויימים בנאב כדי ליצור ריווח
+*/
+.nav-item {
+    margin: 15px;
+}
+
+/*
+הגדרות לכותרת H1
+*/
+h1 {
+    font-family: OS Luizi Round_FFC;
+    color: #5DC4F1;
+    font-size: 66px;
+}
+
+/*
+הגדרות לכותרת H2
+*/
+h2 {
+    font-family: OS Luizi Round_FFC;
+    font-size: 30px;
+}
+
+/*
+הגדרות לכותרת H5
+*/
+h5 {
+    font-family: OS Luizi Round_FFC;
+    font-size: 30px;
+}
+
+.card{
+    width: 370px;
+    border: none;
+}
+
+.card-img-overlay{
+    margin: 85px 45px 0px 0px;
+    width: 290px;
+}
+
+.paper{
+    width: 400px;
+}
+
+#puD{
+    margin-top: 0px;
+
+}
+/*
+הגדרה לכפתורים
+*/
+.btn {
+    background-color: #F76F14;
+    color: #E4F0F5;
+    border-radius: 60px;
+    box-shadow: 0 4px 0px 0 #864113, 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: 500;
+}
+
+.btn:hover {
+    border-color: #F76F14;
+    background-color: #ffffff;
+    color: #F76F14;
+  }
+
+/*
+הגדרה עבור header והסקשנים
+*/
+header,
+section{
+    margin-bottom: 100px;
+    margin-top: 150px;
+
+}
+
+.card-text{
+    font-size: 16px;
+}
+
+/*
+הגדרות שונות למלקה dragbox
+ואינפוט עם type="file"
+*/
+.dragBox, .dragBox input[type="file"] {
+    max-width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    color: #F76F14;
+    border: 2px dashed #5DC4F1;
+    display: inline-block;
+    transition: transform 0.3s;
+    font-size: 25px;
+    font-family: OS Luizi Round_FFC;
+    border-radius: 10px;
+    background-color: #FEF4ED;
+    cursor: pointer;
+
+}
+
+/*
+מעבר עכבר על המחקלה בשל dragbox
+*/
+.dragBox:hover {
+    border-style: solid;
+}
+/*
+הגדרות לנראות של הגרירה
+*/
+.dragBox input[type="file"] {
+    position: relative;
+    max-width: 100%;
+    height: 200px;
+    opacity: 0;
+    bottom: 220px;
+    cursor: pointer;
+}
+
+/*
+הגדרות גרירה*/
+.draging {
+    transform: scale(1.1);
+}
+
+/*
+הגדרות לטקסט שמוצג לאחר העלאה
+*/
+#preview {
+    max-width: 250px;
+    white-space: nowrap;
+    
+}
+
+

@@ -1,0 +1,393 @@
+﻿<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Onboarding- המוסד לבטיחות וגיהות</title>
+    <meta name="description" content="onboarding prosess" />
+    <meta name="keywords" content="onboarding" />
+    <meta name="author" content="Idan Moshe & Rotem Shalom" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="styles/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/bootstrap.bundle.min.js"></script>
+    <script src="jScripts/javascript.js"></script>
+    <script scr="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body lang="he" dir="rtl" class="position-relative">
+
+    <!-- תפריט -->
+    <nav class="navbar navbar-expand-md navbar-ligh rounded fixed-top"
+        style="background-color: #ffffff;">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="index.html"><img style="width: 120px;" src="images/logo.png" alt="..."></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-3 mt-md-0 flex-grow-0" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-3 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">מי אנחנו?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#structure">מבנה ארגוני</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prosess">תהליך הקליטה</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dontforget">רשימת ציוד</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tip">טיפ קטן</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quest">צור קשר</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ראש הדף הכולל קרוסלה וטקסט פתיחה -->
+    <header class="container">
+        <div class="row">
+            <div class="mb-4 col-lg-7 col-sm-6">
+                <h1>
+                    ברוכים הבאים למוסד לבטיחות וגיהות!
+                </h1>
+                <p>אנחנו שמחים לצרף אותך כחבר בצוות שלנו.
+                    אנחנו יודעים שהתחלה של עבודה חדשה יכולה להיות קצת מבלבלת, אבל אנחנו כאן כדי להפוך את המעבר לחלק
+                    ככל
+                    האפשר.</p>
+                <p class="ore">אז מה אתם אומרים? שנצא לדרך?</p>
+            </div>
+            <div class="col-lg-4 col-sm-5 mb-4">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/cheerful-young-caucasian-businessman.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/group-international-architects-discuss-ideas-engineering-project-enjoy-working-process-together-pose-desktop-concentrated-paper-yellow-wall-diverse-colleagues-inn-office.jpg"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/two-happy-men-working-together-new-business-project.jpg"
+                                class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- סאשנים לפי סדר -->
+    <section>
+        <div class="container"  id="about">
+        <h2>
+            אז… נעים מאוד! אנחנו המוסד לבטיחות וגיהות
+        </h2>
+        <img class="mb-3 d-none d-lg-block" src="images/1.svg" alt="...">
+        <img class="mb-3 d-lg-none" src="images/2.svg" alt="...">
+        <p> המוסד לבטיחות ולגיהות הוא תאגיד סטטוטורי ללא כוונות רווח (מלכ"ר), שהוקם מתוקף
+            "חוק
+            ארגון
+            הפיקוח
+            על העבודה, התשי"ד-1954".
+            מטרתנו "לקדם את תנאי הבטיחות בעבודה והגיהות המקצועית".
+        </p>
+        <h3 class="ore"> ובמילים פשוטות?</h3>
+        <p> לקדם תרבות של בטיחות בעבודה ובריאות תעסוקתית, בכל ענפי המשק השונים: תעשייה ושירותים, בנייה וחקלאות.
+        </p>
+        <h3 class="ore mb-4"> איך אנחנו עושים זאת?</h3>
+        <div class="container text-center">
+
+            <div class="row">
+                <div class="col-sm col-lg-2">
+                    <img class="mb-3" src="images/winner.svg" alt="...">
+                    <p>ענקת תעודות הצטיינות למצטיינים בכל הנוגע לבטיחות ולגיהות במקום העבודה</p>
+                </div>
+                <div class="col-sm col-lg-2">
+                    <img class="mb-3" src="images/alert.svg" alt="...">
+                    <p>סיוע בבחירת נאמני בטיחות והקמתן של ועדות בטיחות</p>
+                </div>
+                <div class="col-sm col-lg-2">
+                    <img class="mb-3" src="images/discussion.svg" alt="...">
+                    <p>ייעוץ לשר העבודה בעניינים הנוגעים לבטיחות ולגיהות</p>
+                </div>
+
+                <div class="col-sm col-lg-2">
+                    <img class="mb-3" src="images/search.svg" alt="...">
+                    <p>עריכה ופרסום מחקרים</p>
+                </div>
+                <div class="col-sm col-lg-2">
+                    <img class="mb-3" src="images/presentation.svg" alt="...">
+                    <p>פעולות הסברה והדרכה</p>
+                </div>
+                <div class="col-sm col-lg-2">
+                    <img class="mb-3" src="images/info.svg" alt="...">
+                    <p>סיוע למנהל הבטיחות והבריאות בתעסוקה</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <section class="container" id="structure">
+        <div class="row">
+            <div class="col-lg-5 col-sm-4">
+                <h2>
+                    מבנה ארגוני
+                </h2>
+                <img class="mb-3" src="images/2.svg" alt="...">
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <p>הארגון שלנו נועד למקסם את היעילות והפרודוקטיביות, כאשר כל חטיבה פועלת יחד כדי להשיג את המטרות
+                    המשותפות שלנו.</p>
+                <button type="button" class="btn d-none d-lg-block" data-bs-toggle="modal"
+                    data-bs-target="#myModal">לחצו כאן לצפייה במבנה הארגוני שלנו</button>
+                <a href="/images/StructureTree.png" class="d-lg-none" download><img style="width: 50px;"
+                        src="images/download.svg"></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="modal modal-xl" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #FEF4ED;">
+                    <h5 class="modal-title">עץ מבנה- המוסד לבטיחות וגיהות</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img class="mb-3 " style="width:1100px;" src="images/StructureTree.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="container" id="prosess">
+        <h2>כמה מילים על המסע שאנחנו הולכים לעבור ביחד</h2>
+        <img class="mb-3 d-none d-lg-block" src="images/1.svg">
+        <img class="mb-3 d-lg-none" src="images/2.svg" alt="...">
+        <p>המסע שנעבור יחדיו מתחלק ל-3 חלקים:</p>
+        <div class="row gx-sm-5 gy-5">
+
+            <div class="card col-lg-4 col-sm-6">
+                <img class="card-img" src="images/pro.svg" style="width: 300px;" alt="Card image">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">1. שלב טרום הקליטה</h5>
+                    <p class="card-text">זה השלב שבו אנחנו נמצאים עכשיו. בשלב זה תכירו את הארגון ותתכוננו לקראת יום
+                        הקליטה.</p>
+                </div>
+            </div>
+
+
+            <div class="card col-lg-4 col-sm-6">
+                <img class="card-img" src="images/pro.svg" style="width: 300px;" alt="Card image">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">2. יום הקליטה</h5>
+                    <p class="card-text">ביום זה, תגיעו לראשונה לארגון, תפגשו את נציגת מחלקת משאבי אנוש שתלווה אתכם
+                        לאורך כל תהליך הקליטה ותשלימו את מילוי הטפסים הרלוונטיים.</p>
+                </div>
+            </div>
+
+
+            <div class="card col-lg-4 col-sm-6">
+                <img class="card-img" src="images/pro1.svg" style="width: 300px;" alt="Card image">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">3. תהליך הקליטה</h5>
+                    <p class="card-text">לב זה מתייחס לתקופה הראשונה שלכם בעבודה, בה תלמדו כל מה שאתם צריכים כדי
+                        שתוכלו
+                        לבצע את העבודה שלכם על הצד הטוב ביותר.</p>
+                </div>
+            </div>
+
+
+    </section>
+
+
+
+
+
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-3 col-lg-5">
+                <h2>מה חשוב להביא ליום הראשון? </h2>
+                <img class="mb-3 d-none d-lg-block" src="images/4.svg">
+                <img class="mb-3 d-lg-none" src="images/2.svg" alt="...">
+            </div>
+            <!-- <div class="list col-lg-6 col-sm-6">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        פרטי חשבון בנק
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        תעודה מזהה- ת"ז + ספח </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        רישיון נהיגה </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        טפסי פנסיה (במידה וקיימת קרן פנסיה) </label>
+                </div> -->
+                <div class="container text-center">
+
+                    <div class="row">
+                        <div class="col-sm col-lg-2">
+                            <img class="mb-3" src="images/Group 24.svg" alt="...">
+                            <p>פרטי חשבון בנק</p>
+                        </div>
+                        <div class="col-sm col-lg-2">
+                            <img class="mb-3" src="images/Group 25.svg" alt="...">
+                            <p>תעודה מזהה - ת"ז + ספח</p>
+                        </div>
+                        <div class="col-sm col-lg-2">
+                            <img class="mb-3" src="images/Group 23.svg" alt="...">
+                            <p>רישיון נהיגה</p>
+                        </div>
+                        <div class="col-sm col-lg-2">
+                            <img class="mb-3" src="images/Group 22.svg" alt="...">
+                            <p> טפסי פנסיה (במידה וקיימת קרן פנסיה) </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="tip">
+        <div class="row">
+            <div class="col-sm-3 col-lg-5">
+                <h2>
+                    טיפ קטן מאיתנו </h2>
+                <img class="mb-3 d-none d-lg-block" src="images/5.svg">
+                <img class="mb-3 d-lg-none" src="images/2.svg" alt="...">
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <p>במטרה להפוך את יום הקליטה שלכם לנעים יותר, אנחנו ממליצים להקדיש מספר רגעים למילוי טפסי הקליטה.</p>
+                <button type="button" class="btn" data-bs-toggle="modal"
+                    data-bs-target="#myModal2">לחצו כאן כדי לעבור למילוי הטפסים</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal modal-xl" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #FEF4ED;">
+                    <h2 class="modal-title">טפסים להורדה ושליחה</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <header class="container mb-5" id="puD">
+                        <div class="row">
+
+                            <p>שמחים שבחרת למלא את הטפסים כבר עכשיו!
+                                <div class="col-sm-3 col-lg-5">
+                                    <h2>הורדת טפסים</h2>
+                                    <p class="ore">לחצו על האייקון להורדת הטופס הרלוונטי</p>
+                                </div>
+                            <div class="col-sm col-lg-2 text-center">
+                                <a href="/files/PensionFund.pdf" download><img style="width: 100px;"
+                                        src="images/document.svg"></a>
+                                <p>קרן השתלמות וקרן פנסיה</p>
+                            </div>
+                            <div class="col-sm col-lg-2 text-center">
+                                <a href="/files/Personalquestionnaire.pdf" download><img style="width: 100px;"
+                                        src="images/document.svg"></a>
+                                <p>שאלון אישי</p>
+                            </div>
+                    </header>
+                    <!-- סאשנים לפי סדר -->
+                    <section class="container">
+                        <div class="row">
+                            <div class="col-sm-3 col-lg-5">
+                                <h2>העלאת טפסים</h2>
+                            </div>
+                            <!-- מקום לגרירה קבציםף לאחר גרירה מופעלות הפונקציות השונות-->
+                            <div class="uploadOuter  col-lg-6 col-sm-6">
+                                <span class="dragBox ">
+                                    <img class="mb-3" src="images/cloud.svg">
+                                    גרירת קובץ או לחיצה להעלאה
+                                    <input type="file" onChange="dragNdrop(event)" ondragover="drag()" ondrop="drop()"
+                                        id="uploadFile" multiple />
+                                    <!-- שליחה הקבצים והצגת הודעה-->
+                                </span>
+                                <div id="preview"></div>
+                                <button type="submit" class="btn" value="Submit" onclick="Post()">שליחה
+                                </button>
+                            </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="container" id="about">
+        <div class="row">
+            <div class="col-sm-3 col-lg-5">
+                <h2>
+                    יש לך שאלה? משהו לא ברור?
+                </h2>
+                <h3>אנחנו כאן בשבילך!</h3>
+                <img class="mb-3 d-none d-lg-block" src="images/4.svg" alt="...">
+                <img class="mb-3 d-lg-none" src="images/2.svg" alt="...">
+
+            </div>
+            <div class="col-lg-4">
+                <h3 class="ore mb-4">מחלקת משאבי אנוש</h3>
+                <div class="row ">
+                    <div class="col-sm col-lg-4">
+                        <img class="mb-3" src="images/fax.svg">
+                        <p>08-9797531</p>
+                    </div>
+                    <div class="col-sm col-lg-4">
+                        <img class="mb-3" src="images/tel.svg">
+                        <p>0547511116</p>
+                    </div>
+                    <div class="col-sm col-lg-4">
+                        <img class="mb-3" src="images/mail.svg">
+                        <p>Idanmoshe04@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- סיום האתר -->
+    <footer class=" shadow-sm p-3" style="background-color: #FEF4ED;">
+        <div class="container text-center">
+            <h2 class="mb-5">מחכים לראות אותך כבר אצלנו בארגון!</h2>
+            <img class="mb-5" src="images/logo.png">
+        </div>
+    </footer>
+
+</body>
+
+</html>

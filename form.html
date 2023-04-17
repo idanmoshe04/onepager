@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Onboarding- המוסד לבטיחות וגיהות</title>
+    <meta name="description" content="onboarding prosess" />
+    <meta name="keywords" content="onboarding" />
+    <meta name="author" content="Idan Moshe & Rotem Shalom" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="styles/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/bootstrap.bundle.min.js"></script>
+    <script src="jScripts/javascript.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+
+</head>
+
+<body lang="he" dir="rtl" class="position-relative">
+    <!-- תפריט -->
+    <nav class="navbar navbar-expand-md navbar-ligh  shadow-sm p-3 mb-5 rounded fixed-top"
+        style="background-color: #FEF4ED;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="mb-3" src="images/logo.png" alt="..."></a>
+        </div>
+    </nav>
+    
+    <!-- ראש הדף הכולל קרוסלה וטקסט פתיחה -->
+    <header class="container mb-5">
+        <div class="row">
+            <div class="col-sm-3 col-lg-4">
+                <h2>
+                    טפסים להורדה </h2>
+                <img class="mb-3" src="images/Line 1.svg">
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <p>שמחים שבחרת למלא את הטפסים כבר עכשיו!
+                <p class="ore">לחצו על האייקון להורדת הטופס הרלוונטי</p>
+                <a href="/files/PensionFund.pdf" download><img style="width: 100px;" src="images/document.svg"></a>
+                <b>
+                    <p>קרן השתלמות וקרן פנסיה</p>
+                </b>
+                <a href="/files/Personalquestionnaire.pdf" download><img style="width: 100px;"
+                        src="images/document.svg"></a>
+                <b>
+                    <p>שאלון אישי</p>
+                </b>
+            </div>
+    </header>
+
+   <!-- סאשנים לפי סדר -->
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-3 col-lg-4">
+                <h2>העלאת טפסים</h2>
+                <img class="mb-3" src="images/Line 1.svg" alt="...">
+            </div>
+   
+            <!-- מקום לגרירה קבציםף לאחר גרירה מופעלות הפונקציות השונות-->
+            <div class="uploadOuter  col-lg-6 col-sm-6">
+                <span class="dragBox ">
+                    <img class="mb-3" src="images/cloud.svg">
+                    גרירת קובץ או לחיצה להעלאה 
+                    <input type="file" onChange="dragNdrop(event)" ondragover="drag()" ondrop="drop()" id="uploadFile"
+                        multiple />
+            <!-- שליחה הקבצים והצגת הודעה-->
+                </span>
+                <div id="preview"></div>
+                <button type="submit" class="btn btn-info" value="Submit" onclick="Post()">שליחה </button>
+            </div>
+    </section>
+</body>
+
+</html>
